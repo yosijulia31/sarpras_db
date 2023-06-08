@@ -178,3 +178,42 @@ ALTER TABLE `tbl_peminjam`
 --
 ALTER TABLE `tbl_petugas`
   ADD PRIMARY KEY (`id_petugas`);
+
+--
+-- Indexes for table `tbl_pinjam`
+--
+ALTER TABLE `tbl_pinjam`
+  ADD PRIMARY KEY (`id_pinjam`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tbl_barang`
+--
+ALTER TABLE `tbl_barang`
+  MODIFY `id_barang` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `tbl_peminjam`
+--
+ALTER TABLE `tbl_peminjam`
+  MODIFY `id_peminjam` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+
+--
+-- AUTO_INCREMENT for table `tbl_petugas`
+--
+ALTER TABLE `tbl_petugas`
+  MODIFY `id_petugas` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `tbl_pinjam`
+--
+ALTER TABLE `tbl_pinjam`
+  MODIFY `id_pinjam` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
